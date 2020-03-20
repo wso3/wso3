@@ -7,7 +7,7 @@ If you have any feature requests or bugs to report feel free to submit via Issue
 ### SQL Manager
 - Fixed bug in python backconnect where os.getenv('PATH') returns a None object
 - Fixed SQL bugs, added error messages for connection failures
-- Added support for PDO MySQL
+- Wrote support for PDO MySQL but removed as it causes shell to fail on older PHP installs
 ### Network
 - Fixed default PATH for python reverse shells
 - Fixed bug in python backconnect where os.getenv('PATH') returns a None object
