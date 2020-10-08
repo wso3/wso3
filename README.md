@@ -2,6 +2,22 @@
 The original version by oRb has become outdated from using functions that are now deprecated and was in need of an update so I have made many improvements and fixes to it.
 
 If you have any feature requests or bugs to report feel free to submit via Issues
+# Changelog October 2020
+### SQL Manager
+ - Changed SQL Form to not need base64 decode button
+### Network
+- Added netcat bind shell
+- It now prints out backconnect command used
+### Sec Info
+- Added some more URLs to AWS tool
+- Fixed phpinfo colors
+### Console
+- Added proc_open to command exec
+### Other
+- Changed highlight view for files to default
+- Changed highlight colors
+- Made eval on its own line with one variable (less obvious when in grep output)
+- Decreased filesize
 
 # Changelog March 2020
 ### SQL Manager
